@@ -30,7 +30,7 @@ export class ProductsController {
 
   @Get()
   findAll() {
-    console.log('finding all products...');
+    console.log('finding all products... service');
     return this.productsService.findAll();
   }
 
